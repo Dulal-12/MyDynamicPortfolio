@@ -1,0 +1,24 @@
+h5
+{
+    font-weight:1000;
+}
+
+.card
+{
+    box-shadow: 5px 5px 20px lightgrey;
+    border-radius:20px;
+}
+
+
+
+.card:hover
+{
+    box-shadow: 5px 5px 20px green;
+    border-radius:20px;
+}
+.expert ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: 600;
+}

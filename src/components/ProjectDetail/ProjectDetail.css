@@ -1,0 +1,10 @@
+.projectdetails h1, h3
+{
+    border-bottom: 4px solid green;
+    font-weight:1000;
+}
+a
+{
+    color:black;
+    font-weight:600;
+}

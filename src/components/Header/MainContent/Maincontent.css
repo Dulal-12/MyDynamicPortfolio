@@ -1,0 +1,47 @@
+.mainHeader
+{
+    height:100%;
+    width:100%;
+}
+.mainHeader h5 
+{
+    color:crimson;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+
+}
+.mainHeader h3 
+{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.mainHeader p
+{
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.textDesign:before
+{
+    content : '';
+    animation: animate infinite 8s;
+}
+@keyframes animate
+{
+    0%{
+        content:'Freelancer';
+    }
+   
+    33%{
+        content:'Font-end Developer';
+    }
+    66%{
+        content:'MARN Developer';
+    }
+    100%{
+        content:'Teacher';
+    }
+}
