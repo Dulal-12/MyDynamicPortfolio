@@ -1,16 +1,15 @@
 import React from 'react';
 import './Contact.css';
-import {Link } from 'react-router-dom';
 import Navbar from '../Header/Navbar/Navbar';
 const Contact = () => {
     return (
-        <div>
-            <Navbar></Navbar>
-            <div className="row contact text-center"> 
-                <div className="col-md-12">
-                    <h1 className="ml-5 mb-5 mt-5">About Me</h1>
-                </div>
-            </div>
+        <div className="container">
+                       <Navbar></Navbar>
+                        <div className="row contact text-center"> 
+                            <div className="col-md-12">
+                                <h1 className="ml-5 mb-5 mt-5">About Me</h1>
+                            </div>
+                        </div>
 
             <div className="row "> 
                 <div className="col-md-8 summary  ml-5  p-5">
@@ -30,9 +29,9 @@ const Contact = () => {
                       <p><span style={{fontWeight:'1000'}}>University :</span>City University</p>
                       <p><span style={{fontWeight:'1000'}}>Address :</span>Kashimpur, Gazipur-sadar , Gazipur</p>
                       < a href="https://drive.google.com/file/d/1ijBkeNNSbEaIx_odL3XXNJvA18bb6_ZE/view?usp=sharing" target="_blank">    
-                <button className="btn btn-danger">Download Resume</button>
+                      <button className="btn btn-danger">Download Resume</button>
                 </a> 
-                  </div>
+            </div>
 
                   <div className="col-md-5 ml-5  p-5">
 
@@ -47,7 +46,7 @@ const Contact = () => {
                  </div>
 
 
-                 <div className="row contact text-center"> 
+            <div className="row contact text-center"> 
                 <div className="col-md-12">
                     <h1 className="ml-5 mb-5 mt-5">Skills</h1>
                 </div>
@@ -67,11 +66,7 @@ const Contact = () => {
                     </ul>
                 </div>
             </div>
-
-            
-            
-
-        </div>
+             </div>
     );
 };
 

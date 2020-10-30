@@ -6,9 +6,10 @@ import './ProjectDetail.css';
 import Navbar from '../Header/Navbar/Navbar';
 const ProjectDetail = () => {
     return (
-       <div>
+       <div className="container">
           <Navbar></Navbar>
-            <div className="row ml-5 mt-5 mb-5 projectdetails">
+
+            <div className="row ml-5 mt-5 mb-5 projectdetails ">
                    <div className="col-md-6 col-sm-3">
                         <h1 className="m-4">Creative Agency</h1>
                         <ul className=" font-weight-bold  ml-5">
@@ -18,36 +19,37 @@ const ProjectDetail = () => {
                            <li className="mb-3">This site fully responsive . </li>
                            <li className="mb-3">Admin can see all the user details. </li>
                         </ul>
-                     <div className="ml-5">
+
+                <div className="ml-5">
                            <h3 >Technology</h3>
                            <p>ReactJs, ReactRouter, Firebase , Mongodb , NodeJs, ExpressJs, JavaScript, Bootstrap , CSS3, HTML </p>
-                     </div>
+                </div>
                         <div className="ml-5">
                            <h3 >Link</h3>
                            <p><a href="https://creative-agency-d876c.web.app/" target="_blank">Live Link</a></p>
                            <p><a href="https://github.com/Dulal-12/agent-client" target="_blank">Github Client Code</a></p>
                            <p><a href="https://github.com/Dulal-12/agent--server" target="_blank">Github Server Code</a></p>
                         </div>
-                      </div>
-                     <div className="col-md-5 col-sm-6">
-                           <div class="card p-5">
-                                 <img src={project1} alt="" srcset="" class="card-img-top img-fluid" />
-                           </div>
+                        </div>
+               <div className="col-md-5 col-sm-6">
+                     <div class="card p-5">
+                             <img src={project1} alt="" srcset="" class="card-img-top img-fluid" />
                      </div>
+               </div>
                </div>
                
 
 
-        <div className="row ml-5 mt-5 mb-5 projectdetails">
+             <div className="row ml-5 mt-5 mb-5 projectdetails">
                   <div className="col-md-6 col-sm-3">
                      <h1 className="m-4">Volunteer Network</h1>
-                     <ul className=" font-weight-bold ml-5  ">
-                        <li className="mb-3">A full stack website where several events is open and a volunteer can join any event by registration.  </li>
-                        <li className="mb-3">A volunteer can see his/her event . </li>
-                        <li className="mb-3">Here use firebase login system. </li>
-                        <li className="mb-3">Volunteer can delete his/her event also. </li>
-                        <li className="mb-3">Admin can see all volunteer details in his /her dashboard. </li>
-                     </ul>
+                           <ul className=" font-weight-bold ml-5  ">
+                              <li className="mb-3">A full stack website where several events is open and a volunteer can join any event by registration.  </li>
+                              <li className="mb-3">A volunteer can see his/her event . </li>
+                              <li className="mb-3">Here use firebase login system. </li>
+                              <li className="mb-3">Volunteer can delete his/her event also. </li>
+                              <li className="mb-3">Admin can see all volunteer details in his /her dashboard. </li>
+                           </ul>
 
                   <div className="ml-5">
                      <h3 >Technology</h3>
